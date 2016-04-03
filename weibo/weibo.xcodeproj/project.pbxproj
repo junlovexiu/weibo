@@ -15,6 +15,7 @@
 		7B1D21CE1CB1772F00BEAF36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B1D21CC1CB1772F00BEAF36 /* LaunchScreen.storyboard */; };
 		7B1D21D91CB1772F00BEAF36 /* weiboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1D21D81CB1772F00BEAF36 /* weiboTests.m */; };
 		7B1D21E41CB1772F00BEAF36 /* weiboUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1D21E31CB1772F00BEAF36 /* weiboUITests.m */; };
+		7B1D21F31CB1778E00BEAF36 /* person.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1D21F21CB1778E00BEAF36 /* person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7B1D21DF1CB1772F00BEAF36 /* weiboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weiboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B1D21E31CB1772F00BEAF36 /* weiboUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weiboUITests.m; sourceTree = "<group>"; };
 		7B1D21E51CB1772F00BEAF36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B1D21F11CB1778E00BEAF36 /* person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = person.h; sourceTree = "<group>"; };
+		7B1D21F21CB1778E00BEAF36 /* person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		7B1D21BD1CB1772F00BEAF36 /* weibo */ = {
 			isa = PBXGroup;
 			children = (
+				7B1D21F11CB1778E00BEAF36 /* person.h */,
+				7B1D21F21CB1778E00BEAF36 /* person.m */,
 				7B1D21C11CB1772F00BEAF36 /* AppDelegate.h */,
 				7B1D21C21CB1772F00BEAF36 /* AppDelegate.m */,
 				7B1D21C41CB1772F00BEAF36 /* ViewController.h */,
@@ -272,6 +277,7 @@
 			files = (
 				7B1D21C61CB1772F00BEAF36 /* ViewController.m in Sources */,
 				7B1D21C31CB1772F00BEAF36 /* AppDelegate.m in Sources */,
+				7B1D21F31CB1778E00BEAF36 /* person.m in Sources */,
 				7B1D21C01CB1772F00BEAF36 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
